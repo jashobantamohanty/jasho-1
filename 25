@@ -1,0 +1,6 @@
+units = int(input('Please enter the number of unit you consumed: '))
+if(units < 50):
+    amount = units * 2.5
+else:
+    amount= 125+(units-50)*5
+print(amount)
